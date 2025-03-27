@@ -9,9 +9,7 @@ const nextConfig = {
 
     return config;
   },
-  env: {
-    SKIP_LOADING: 'true',
-  }
+  
 };
 
 export default nextConfig;
