@@ -86,7 +86,7 @@ const Hero = () => {
           &ldquo;Varje utställning är en resa, varje föremål en vägvisare.&rdquo;
         </h5> }
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className={`relative ${styles.emphasize} staggered-reveal text-[#05F5D9]`}>
+          <span className={`relative ${styles.emphasize} staggered-reveal`}>
             Arqiv
           </span>
           <span className="staggered-reveal"> QR </span>
@@ -94,7 +94,7 @@ const Hero = () => {
         <p>
           <span
             ref={typedElementRef}
-            className="staggered-reveal text-3xl text-[#05F5D9] font-mono leading-relaxed"
+            className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
           />
         </p>
         <div className="staggered-reveal">
