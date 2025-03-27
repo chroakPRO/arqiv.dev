@@ -94,7 +94,7 @@ const Hero = () => {
         <p>
           <span
             ref={typedElementRef}
-            className="staggered-reveal text-3xl text-gray-light-3 font-mono leading-relaxed"
+            className="staggered-reveal text-3xl text-[#05F5D9] font-mono leading-relaxed"
           />
         </p>
         <div className="staggered-reveal">
