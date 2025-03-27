@@ -80,13 +80,13 @@ const Hero = () => {
       </style>
       <div className="flex flex-col pt-40 md:pt-0 select-none">
         {/* Remove the quote */}
-        {/* <h5
+        {<h5
           className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
         >
           "Varje utställning är en resa, varje föremål en vägvisare."
-        </h5> */}
+        </h5> }
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
-          <span className={`relative ${styles.emphasize} staggered-reveal`}>
+          <span className={`relative ${styles.emphasize} staggered-reveal text-[#05F5D9]`}>
             Arqiv
           </span>
           <span className="staggered-reveal"> QR </span>
