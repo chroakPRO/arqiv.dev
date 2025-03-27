@@ -59,10 +59,6 @@ const About1 = ({ clientHeight }) => {
           Vi på Arqiv är passionerade experter som gör historia levande genom innovativa och användarvänliga lösningar .{" "}
             
           </span>
-          <span className="about-2 leading-tight">
-            I take responsibility to craft a good user experience using modern
-            frontend architecture.{" "}
-          </span>
         </h1>
       </div>
     </section>
