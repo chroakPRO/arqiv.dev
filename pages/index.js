@@ -21,15 +21,17 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.config({ nullTargetWarn: false });
 
 export default function Home() {
-  const [isLoading, setIsLoading] = useState(true);
+  // Set isLoading to false by default
+  const [isLoading, setIsLoading] = useState(false);
   const [isDesktop, setIsDesktop] = useState(true);
   const [clientHeight, setClientHeight] = useState(0);
   const [clientWidth, setClientWidth] = useState(0);
 
   useEffect(() => {
-    setTimeout(() => {
-      setIsLoading(false);
-    }, 2600);
+    // Skip the loading timeout
+    // setTimeout(() => {
+    //   setIsLoading(false);
+    // }, 2600);
 
     displayFancyLogs();
   }, []);
@@ -68,7 +70,9 @@ export default function Home() {
             <div className="fixed top-0 left-0 h-screen w-screen -z-1" />
             <Hero />
             <About1 clientHeight={clientHeight} />
+            <Skills />
             <About2 clientHeight={clientHeight} />
+            <Projects isDesktop={isDesktop} clientHeight={clientHeight} />
             <Work isDesktop={isDesktop} />
             <Collaboration clientHeight={clientHeight} />
             <Contact />

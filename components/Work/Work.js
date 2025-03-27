@@ -11,12 +11,13 @@ const Work = ({ isDesktop }) => {
   const tabItems = useMemo(
     () => [
       {
-        title: "Dukaan",
-        value: "dukaan",
+        title: "Fish",
+        value: "fish",
         content: (
           <StickyScroll
             isDesktop={isDesktop}
             contentItems={WORK_CONTENTS.DUKAAN}
+            backgroundImage="./fish.png" // Add the image path here
           />
         ),
       },
