@@ -83,7 +83,7 @@ const Hero = () => {
         {<h5
           className={`${styles.intro} font-mono font-medium text-indigo-light staggered-reveal`}
         >
-          "Varje utställning är en resa, varje föremål en vägvisare."
+          &ldquo;Varje utställning är en resa, varje föremål en vägvisare.&rdquo;
         </h5> }
         <h1 className={`${styles.heroName} text-white text-6xl font-semibold`}>
           <span className={`relative ${styles.emphasize} staggered-reveal text-[#05F5D9]`}>
